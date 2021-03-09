@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>SSS.FrameWork.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SSS.FrameWork.Core.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Furion" Version="1.15.5" />
+    <PackageReference Include="Furion.Extras.Authentication.JwtBearer" Version="1.15.0" />
+    <PackageReference Include="Furion.Extras.Logging.Serilog" Version="1.15.4" />
+    <PackageReference Include="Furion.Extras.ObjectMapper.Mapster" Version="1.15.0" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="5.21.1" />
+  </ItemGroup>
+
+</Project>

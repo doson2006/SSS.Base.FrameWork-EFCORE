@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSS.FrameWork.Application</name>
+    </assembly>
+    <members>
+        <member name="T:SSS.FrameWork.Application.LogExceptionHandler">
+            <summary>
+            全局异常日志
+            </summary>
+        </member>
+        <member name="T:SSS.FrameWork.Application.RESTfulResult`1">
+            <summary>RESTful 风格结果集</summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:SSS.FrameWork.Application.RESTfulResult`1.Code">
+            <summary>状态码</summary>
+        </member>
+        <member name="P:SSS.FrameWork.Application.RESTfulResult`1.Data">
+            <summary>数据</summary>
+        </member>
+        <member name="P:SSS.FrameWork.Application.RESTfulResult`1.Succeeded">
+            <summary>执行成功</summary>
+        </member>
+        <member name="P:SSS.FrameWork.Application.RESTfulResult`1.Msg">
+            <summary>错误信息</summary>
+        </member>
+        <member name="P:SSS.FrameWork.Application.RESTfulResult`1.Extras">
+            <summary>附加数据</summary>
+        </member>
+        <member name="P:SSS.FrameWork.Application.RESTfulResult`1.Timestamp">
+            <summary>时间戳</summary>
+        </member>
+        <member name="T:SSS.FrameWork.Application.RESTfulResultProvider">
+            <summary>
+            RESTful 风格返回值
+            </summary>
+        </member>
+        <member name="M:SSS.FrameWork.Application.RESTfulResultProvider.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            异常返回值
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSS.FrameWork.Application.RESTfulResultProvider.OnSucceeded(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            成功返回值
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSS.FrameWork.Application.RESTfulResultProvider.OnValidateFailed(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.String)">
+            <summary>
+            验证失败返回值
+            </summary>
+            <param name="context"></param>
+            <param name="modelStates"></param>
+            <param name="validationResults"></param>
+            <param name="validateFailedMessage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSS.FrameWork.Application.RESTfulResultProvider.OnResponseStatusCodes(Microsoft.AspNetCore.Http.HttpContext,System.Int32)">
+            <summary>
+            处理输出状态码
+            </summary>
+            <param name="context"></param>
+            <param name="statusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSS.FrameWork.Application.SysUser.SysUserAppService.AddUserAsync">
+            <summary>
+            添加一个用户异步
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

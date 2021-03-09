@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>SSS.FrameWork.Web.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SSS.FrameWork.Web.Core.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSS.FrameWork.Application\SSS.FrameWork.Application.csproj" />
+    <ProjectReference Include="..\SSS.FrameWork.Database.Migrations\SSS.FrameWork.Database.Migrations.csproj" />
+  </ItemGroup>
+
+</Project>

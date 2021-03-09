@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSS.FrameWork.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SSS.FrameWork.Core.IsSystemEnum">
+            <summary>
+            是否系统账户
+            </summary>
+        </member>
+    </members>
+</doc>
